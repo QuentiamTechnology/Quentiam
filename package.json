@@ -1,0 +1,23 @@
+{
+  "name": "quentiam",
+  "version": "1.0.0",
+  "description": "Object based WebSocket server",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "socket",
+    "multiplayer",
+    "server"
+  ],
+  "author": "boynedmaster",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "nodejs-websocket": "^1.6.0",
+    "winston": "^2.2.0"
+  }
+}
