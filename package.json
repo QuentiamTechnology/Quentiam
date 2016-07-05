@@ -15,7 +15,7 @@
     "server"
   ],
   "author": "boynedmaster",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0",
   "dependencies": {
     "nodejs-websocket": "^1.6.0",
     "winston": "^2.2.0"
