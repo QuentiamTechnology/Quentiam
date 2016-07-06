@@ -21,11 +21,7 @@ class QuentiamObject {
   clientConnect(client){}
 
   clientDisconnect(client){
-    let clientI = this.scope.indexOf(client);
-
-    if(clientI !== -1){
-      this.scope.splice(clientI, 1);
-    }
+    this.removeFromScope(client);
   }
 
   clientMessage(client, data){
@@ -49,8 +45,10 @@ class QuentiamObject {
   }
 
   removeFromScope(client){
-    if(this.scope.indexOf(client) !== -1){
-      delete this.scope[this.scope.indexOf(client)];
+    let clientI = this.scope.indexOf(client);
+
+    if(clientI !== -1){
+      this.scope.splice(clientI, 1);
     }
   }
 }
